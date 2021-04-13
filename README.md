@@ -1,1 +1,1 @@
-# wordpress
+I wanted a wordpress image with the gmp php module installed and due to other reasons I can no longer build this locally so I uploaded it to git/docker hub to build and distribute.  For instructions on using this docker image see the wordpress docker image instructions.
