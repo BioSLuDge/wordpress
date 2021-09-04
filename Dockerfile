@@ -1,6 +1,7 @@
 FROM wordpress
 
 RUN apt-get update -y && \
+    apt-get upgrade -y && \
     apt-get install -y libgmp-dev re2c libmhash-dev libmcrypt-dev file && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
